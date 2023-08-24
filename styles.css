@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #15202b; /* Dark blue, different from Twitter's color */
+    color: #e1e8ed; /* Light text color */
+}
+
+.container {
+    max-width: 1000px;
+}
+
+.tweet-input {
+    background-color: #192734; /* Slightly lighter blue */
+    padding: 15px;
+    border-radius: 20px;
+}
+
+textarea {
+    background-color: #253341; /* Even lighter blue */
+    border: none;
+    color: #e1e8ed;
+}
+
+textarea:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-tweet {
+    background-color: #1da1f2; /* Twitter blue color */
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+.btn-tweet:hover {
+    background-color: #0c85d0; /* A shade darker on hover */
+}
+
+.card {
+    background-color: #192734;
+    color: #e1e8ed;
+    border: none;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+
+.card-title {
+    color: #1da1f2; /* Twitter blue for usernames */
+}
+
+.card-text {
+    color: #e1e8ed;
+}
+.profile-picture {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 20px;
+}
+
+.post-card .post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.post-blockie {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
